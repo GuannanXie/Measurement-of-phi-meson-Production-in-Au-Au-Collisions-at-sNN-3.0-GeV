@@ -1,0 +1,595 @@
+%merlin.mbs apsrev4-1.bst 2010-07-25 4.21a (PWD, AO, DPC) hacked
+%Control: key (0)
+%Control: author (8) initials jnrlst
+%Control: editor formatted (1) identically to author
+%Control: production of article title (-1) disabled
+%Control: page (0) single
+%Control: year (1) truncated
+%Control: production of eprint (0) enabled
+\begin{thebibliography}{61}%
+\makeatletter
+\providecommand \@ifxundefined [1]{%
+ \@ifx{#1\undefined}
+}%
+\providecommand \@ifnum [1]{%
+ \ifnum #1\expandafter \@firstoftwo
+ \else \expandafter \@secondoftwo
+ \fi
+}%
+\providecommand \@ifx [1]{%
+ \ifx #1\expandafter \@firstoftwo
+ \else \expandafter \@secondoftwo
+ \fi
+}%
+\providecommand \natexlab [1]{#1}%
+\providecommand \enquote  [1]{``#1''}%
+\providecommand \bibnamefont  [1]{#1}%
+\providecommand \bibfnamefont [1]{#1}%
+\providecommand \citenamefont [1]{#1}%
+\providecommand \href@noop [0]{\@secondoftwo}%
+\providecommand \href [0]{\begingroup \@sanitize@url \@href}%
+\providecommand \@href[1]{\@@startlink{#1}\@@href}%
+\providecommand \@@href[1]{\endgroup#1\@@endlink}%
+\providecommand \@sanitize@url [0]{\catcode `\\12\catcode `\$12\catcode
+  `\&12\catcode `\#12\catcode `\^12\catcode `\_12\catcode `\%12\relax}%
+\providecommand \@@startlink[1]{}%
+\providecommand \@@endlink[0]{}%
+\providecommand \url  [0]{\begingroup\@sanitize@url \@url }%
+\providecommand \@url [1]{\endgroup\@href {#1}{\urlprefix }}%
+\providecommand \urlprefix  [0]{URL }%
+\providecommand \Eprint [0]{\href }%
+\providecommand \doibase [0]{http://dx.doi.org/}%
+\providecommand \selectlanguage [0]{\@gobble}%
+\providecommand \bibinfo  [0]{\@secondoftwo}%
+\providecommand \bibfield  [0]{\@secondoftwo}%
+\providecommand \translation [1]{[#1]}%
+\providecommand \BibitemOpen [0]{}%
+\providecommand \bibitemStop [0]{}%
+\providecommand \bibitemNoStop [0]{.\EOS\space}%
+\providecommand \EOS [0]{\spacefactor3000\relax}%
+\providecommand \BibitemShut  [1]{\csname bibitem#1\endcsname}%
+\let\auto@bib@innerbib\@empty
+%</preamble>
+\bibitem [{\citenamefont {Akiba}\ \emph {et~al.}(2015)\citenamefont {Akiba}
+  \emph {et~al.}}]{akiba2015hot}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Y.}~\bibnamefont
+  {Akiba}} \emph {et~al.},\ }\href@noop {} {\  (\bibinfo {year} {2015})},\
+  \Eprint {http://arxiv.org/abs/1502.02730} {arXiv:1502.02730 [nucl-ex]}
+  \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Busza}\ \emph {et~al.}(2018)\citenamefont {Busza},
+  \citenamefont {Rajagopal},\ and\ \citenamefont {van~der
+  Schee}}]{Busza_ARNPS}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {W.}~\bibnamefont
+  {Busza}}, \bibinfo {author} {\bibfnamefont {K.}~\bibnamefont {Rajagopal}}, \
+  and\ \bibinfo {author} {\bibfnamefont {W.}~\bibnamefont {van~der Schee}},\
+  }\href {\doibase 10.1146/annurev-nucl-101917-020852} {\bibfield  {journal}
+  {\bibinfo  {journal} {Ann. Rev. Nucl. Part. Sci.}\ }\textbf {\bibinfo
+  {volume} {68}},\ \bibinfo {pages} {339} (\bibinfo {year} {2018})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Adams}\ \emph {et~al.}(2005)\citenamefont {Adams}
+  \emph {et~al.}}]{StarWhitePaper}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {Adams}} \emph {et~al.} (\bibinfo {collaboration} {STAR}),\ }\href {\doibase
+  10.1016/j.nuclphysa.2005.03.085} {\bibfield  {journal} {\bibinfo  {journal}
+  {Nucl. Phys.}\ }\textbf {\bibinfo {volume} {A757}},\ \bibinfo {pages} {102}
+  (\bibinfo {year} {2005})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Rafelski}\ and\ \citenamefont
+  {Muller}(1982)}]{Rafelski:1982pu}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {Rafelski}}\ and\ \bibinfo {author} {\bibfnamefont {B.}~\bibnamefont
+  {Muller}},\ }\href {\doibase 10.1103/PhysRevLett.48.1066} {\bibfield
+  {journal} {\bibinfo  {journal} {Phys. Rev. Lett.}\ }\textbf {\bibinfo
+  {volume} {48}},\ \bibinfo {pages} {1066} (\bibinfo {year} {1982})},\ \bibinfo
+  {note} {[Erratum: Phys.Rev.Lett. 56, 2334 (1986)]}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Koch}\ \emph {et~al.}(1986)\citenamefont {Koch},
+  \citenamefont {Muller},\ and\ \citenamefont {Rafelski}}]{Koch:1986ud}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {P.}~\bibnamefont
+  {Koch}}, \bibinfo {author} {\bibfnamefont {B.}~\bibnamefont {Muller}}, \ and\
+  \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {Rafelski}},\ }\href
+  {\doibase 10.1016/0370-1573(86)90096-7} {\bibfield  {journal} {\bibinfo
+  {journal} {Phys. Rept.}\ }\textbf {\bibinfo {volume} {142}},\ \bibinfo
+  {pages} {167} (\bibinfo {year} {1986})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Ko}(2018)}]{KO_sQM17}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {C.~M.}\ \bibnamefont
+  {Ko}},\ }\href {\doibase 10.1051/epjconf/201817103002} {\bibfield  {journal}
+  {\bibinfo  {journal} {EPJ Web Conf.}\ }\textbf {\bibinfo {volume} {171}},\
+  \bibinfo {pages} {03002} (\bibinfo {year} {2018})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Danielewicz}\ \emph {et~al.}(2002)\citenamefont
+  {Danielewicz}, \citenamefont {Lacey},\ and\ \citenamefont
+  {Lynch}}]{Danielewicz1592}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {P.}~\bibnamefont
+  {Danielewicz}}, \bibinfo {author} {\bibfnamefont {R.}~\bibnamefont {Lacey}},
+  \ and\ \bibinfo {author} {\bibfnamefont {W.~G.}\ \bibnamefont {Lynch}},\
+  }\href {\doibase 10.1126/science.1078070} {\bibfield  {journal} {\bibinfo
+  {journal} {Science}\ }\textbf {\bibinfo {volume} {298}},\ \bibinfo {pages}
+  {1592} (\bibinfo {year} {2002})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Galatyuk}(2020)}]{Tetyana_ICNN}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {T.}~\bibnamefont
+  {Galatyuk}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {JPS
+  Conf. Proc.}\ }\textbf {\bibinfo {volume} {32}},\ \bibinfo {pages} {010079}
+  (\bibinfo {year} {2020})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Aichelin}\ and\ \citenamefont
+  {Ko}(1985)}]{KO.PhysRevLett.55.2661}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {Aichelin}}\ and\ \bibinfo {author} {\bibfnamefont {C.~M.}\ \bibnamefont
+  {Ko}},\ }\href {\doibase 10.1103/PhysRevLett.55.2661} {\bibfield  {journal}
+  {\bibinfo  {journal} {Phys. Rev. Lett.}\ }\textbf {\bibinfo {volume} {55}},\
+  \bibinfo {pages} {2661} (\bibinfo {year} {1985})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Adamczewski-Musch}\ \emph {et~al.}(2019)\citenamefont
+  {Adamczewski-Musch} \emph {et~al.}}]{Ks0_Lambda_HADES}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {Adamczewski-Musch}} \emph {et~al.},\ }\href {\doibase
+  https://doi.org/10.1016/j.physletb.2019.03.065} {\bibfield  {journal}
+  {\bibinfo  {journal} {Phys. Lett. B}\ }\textbf {\bibinfo {volume} {793}},\
+  \bibinfo {pages} {457} (\bibinfo {year} {2019})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Cassing}\ \emph {et~al.}(2001)\citenamefont
+  {Cassing}, \citenamefont {Bratkovskaya},\ and\ \citenamefont
+  {Sibirtsev}}]{CASSING.openCharm.2001753}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {W.}~\bibnamefont
+  {Cassing}}, \bibinfo {author} {\bibfnamefont {E.}~\bibnamefont
+  {Bratkovskaya}}, \ and\ \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {Sibirtsev}},\ }\href {\doibase
+  https://doi.org/10.1016/S0375-9474(01)00562-0} {\bibfield  {journal}
+  {\bibinfo  {journal} {Nucl. Phys. A}\ }\textbf {\bibinfo {volume} {691}},\
+  \bibinfo {pages} {753} (\bibinfo {year} {2001})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Andronic}\ \emph {et~al.}(2018)\citenamefont
+  {Andronic}, \citenamefont {Braun-Munzinger}, \citenamefont {Redlich},\ and\
+  \citenamefont {Stachel}}]{Andronic_2018Naure}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {Andronic}}, \bibinfo {author} {\bibfnamefont {P.}~\bibnamefont
+  {Braun-Munzinger}}, \bibinfo {author} {\bibfnamefont {K.}~\bibnamefont
+  {Redlich}}, \ and\ \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {Stachel}},\ }\href {\doibase 10.1038/s41586-018-0491-6} {\bibfield
+  {journal} {\bibinfo  {journal} {Nature}\ }\textbf {\bibinfo {volume} {561}},\
+  \bibinfo {pages} {321} (\bibinfo {year} {2018})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Rafelski}\ and\ \citenamefont
+  {Danos}(1980)}]{Rafelski_1980279}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {Rafelski}}\ and\ \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
+  {Danos}},\ }\href {\doibase https://doi.org/10.1016/0370-2693(80)90601-2}
+  {\bibfield  {journal} {\bibinfo  {journal} {Physics Letters B}\ }\textbf
+  {\bibinfo {volume} {97}},\ \bibinfo {pages} {279} (\bibinfo {year}
+  {1980})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Cleymans}\ and\ \citenamefont
+  {Satz}(1993)}]{Cleymans:1992zc}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {Cleymans}}\ and\ \bibinfo {author} {\bibfnamefont {H.}~\bibnamefont
+  {Satz}},\ }\href {\doibase 10.1007/BF01555746} {\bibfield  {journal}
+  {\bibinfo  {journal} {Z. Phys. C}\ }\textbf {\bibinfo {volume} {57}},\
+  \bibinfo {pages} {135} (\bibinfo {year} {1993})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Becattini}\ \emph {et~al.}(1998)\citenamefont
+  {Becattini}, \citenamefont {Gazdzicki},\ and\ \citenamefont
+  {Sollfrank}}]{Becattini:1997ii}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {F.}~\bibnamefont
+  {Becattini}}, \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
+  {Gazdzicki}}, \ and\ \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {Sollfrank}},\ }\href {\doibase 10.1007/s100520050256} {\bibfield  {journal}
+  {\bibinfo  {journal} {Eur. Phys. J. C}\ }\textbf {\bibinfo {volume} {5}},\
+  \bibinfo {pages} {143} (\bibinfo {year} {1998})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Florkowski}\ \emph {et~al.}(2002)\citenamefont
+  {Florkowski}, \citenamefont {Broniowski},\ and\ \citenamefont
+  {Michalec}}]{Florkowski:2001fp}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {W.}~\bibnamefont
+  {Florkowski}}, \bibinfo {author} {\bibfnamefont {W.}~\bibnamefont
+  {Broniowski}}, \ and\ \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
+  {Michalec}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Acta
+  Phys. Polon. B}\ }\textbf {\bibinfo {volume} {33}},\ \bibinfo {pages} {761}
+  (\bibinfo {year} {2002})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Cleymans}\ \emph {et~al.}(2004)\citenamefont
+  {Cleymans}, \citenamefont {Förster}, \citenamefont {Oeschler}, \citenamefont
+  {Redlich},\ and\ \citenamefont {Uhlig}}]{Redlich_CE}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {Cleymans}}, \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Förster}},
+  \bibinfo {author} {\bibfnamefont {H.}~\bibnamefont {Oeschler}}, \bibinfo
+  {author} {\bibfnamefont {K.}~\bibnamefont {Redlich}}, \ and\ \bibinfo
+  {author} {\bibfnamefont {F.}~\bibnamefont {Uhlig}},\ }\href {\doibase
+  https://doi.org/10.1016/j.physletb.2004.09.078} {\bibfield  {journal}
+  {\bibinfo  {journal} {Phys. Lett. B}\ }\textbf {\bibinfo {volume} {603}},\
+  \bibinfo {pages} {146 } (\bibinfo {year} {2004})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Petr\'a\ifmmode~\check{n}\else \v{n}\fi{}}\ and\
+  \citenamefont {Rafelski}(2010)}]{Rafelski_PRC}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
+  {Petr\'a\ifmmode~\check{n}\else \v{n}\fi{}}}\ and\ \bibinfo {author}
+  {\bibfnamefont {J.}~\bibnamefont {Rafelski}},\ }\href {\doibase
+  10.1103/PhysRevC.82.011901} {\bibfield  {journal} {\bibinfo  {journal} {Phys.
+  Rev. C}\ }\textbf {\bibinfo {volume} {82}},\ \bibinfo {pages} {011901}
+  (\bibinfo {year} {2010})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Rafelski}\ and\ \citenamefont
+  {Letessier}(2002)}]{Rafelski_2002}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {Rafelski}}\ and\ \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {Letessier}},\ }\href {\doibase 10.1088/0954-3899/28/7/336} {\bibfield
+  {journal} {\bibinfo  {journal} {Journal of Physics G: Nuclear and Particle
+  Physics}\ }\textbf {\bibinfo {volume} {28}},\ \bibinfo {pages} {1819}
+  (\bibinfo {year} {2002})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Redlich}\ and\ \citenamefont
+  {Tounsi}(2002)}]{Redlich:2001kb}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {K.}~\bibnamefont
+  {Redlich}}\ and\ \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {Tounsi}},\ }\href {\doibase 10.1007/s10052-002-0983-1} {\bibfield  {journal}
+  {\bibinfo  {journal} {Eur. Phys. J. C}\ }\textbf {\bibinfo {volume} {24}},\
+  \bibinfo {pages} {589} (\bibinfo {year} {2002})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Zeeb}\ \emph {et~al.}(2004)\citenamefont {Zeeb},
+  \citenamefont {Reiter},\ and\ \citenamefont {Bleicher}}]{ZEEB2004297}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {G.}~\bibnamefont
+  {Zeeb}}, \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Reiter}}, \ and\
+  \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Bleicher}},\ }\href
+  {\doibase https://doi.org/10.1016/j.physletb.2004.02.048} {\bibfield
+  {journal} {\bibinfo  {journal} {Phys. Lett. B}\ }\textbf {\bibinfo {volume}
+  {586}},\ \bibinfo {pages} {297} (\bibinfo {year} {2004})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Yong}\ \emph {et~al.}(2021)\citenamefont {Yong},
+  \citenamefont {Xiao}, \citenamefont {Gao},\ and\ \citenamefont
+  {Lin}}]{yong2021double}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {G.-C.}\ \bibnamefont
+  {Yong}}, \bibinfo {author} {\bibfnamefont {Z.-G.}\ \bibnamefont {Xiao}},
+  \bibinfo {author} {\bibfnamefont {Y.}~\bibnamefont {Gao}}, \ and\ \bibinfo
+  {author} {\bibfnamefont {Z.-W.}\ \bibnamefont {Lin}},\ }\href@noop {} {\
+  (\bibinfo {year} {2021})},\ \Eprint {http://arxiv.org/abs/2105.10284}
+  {arXiv:2105.10284 [nucl-th]} \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Fuchs}(2006)}]{FUCHS20061_kaons}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {C.}~\bibnamefont
+  {Fuchs}},\ }\href {\doibase https://doi.org/10.1016/j.ppnp.2005.07.004}
+  {\bibfield  {journal} {\bibinfo  {journal} {Prog. Part. Nucl. Phys.}\
+  }\textbf {\bibinfo {volume} {56}},\ \bibinfo {pages} {1} (\bibinfo {year}
+  {2006})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {McLerran}\ and\ \citenamefont
+  {Pisarski}(2007)}]{McLerran:2007qj}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {L.}~\bibnamefont
+  {McLerran}}\ and\ \bibinfo {author} {\bibfnamefont {R.~D.}\ \bibnamefont
+  {Pisarski}},\ }\href {\doibase 10.1016/j.nuclphysa.2007.08.013} {\bibfield
+  {journal} {\bibinfo  {journal} {Nucl. Phys. A}\ }\textbf {\bibinfo {volume}
+  {796}},\ \bibinfo {pages} {83} (\bibinfo {year} {2007})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Fukushima}\ \emph {et~al.}(2020)\citenamefont
+  {Fukushima}, \citenamefont {Kojo},\ and\ \citenamefont
+  {Weise}}]{Fukushima:2020cmk}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {K.}~\bibnamefont
+  {Fukushima}}, \bibinfo {author} {\bibfnamefont {T.}~\bibnamefont {Kojo}}, \
+  and\ \bibinfo {author} {\bibfnamefont {W.}~\bibnamefont {Weise}},\ }\href
+  {\doibase 10.1103/PhysRevD.102.096017} {\bibfield  {journal} {\bibinfo
+  {journal} {Phys. Rev. D}\ }\textbf {\bibinfo {volume} {102}},\ \bibinfo
+  {pages} {096017} (\bibinfo {year} {2020})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Back}\ \emph {et~al.}(2004)\citenamefont {Back} \emph
+  {et~al.}}]{E917_phi}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {B.~B.}\ \bibnamefont
+  {Back}} \emph {et~al.} (\bibinfo {collaboration} {E917 Collaboration}),\
+  }\href {\doibase 10.1103/PhysRevC.69.054901} {\bibfield  {journal} {\bibinfo
+  {journal} {Phys. Rev. C}\ }\textbf {\bibinfo {volume} {69}},\ \bibinfo
+  {pages} {054901} (\bibinfo {year} {2004})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Alt}\ \emph {et~al.}(2008{\natexlab{a}})\citenamefont
+  {Alt} \emph {et~al.}}]{NA49_phi}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {C.}~\bibnamefont
+  {Alt}} \emph {et~al.} (\bibinfo {collaboration} {NA49 Collaboration}),\
+  }\href {\doibase 10.1103/PhysRevC.78.044907} {\bibfield  {journal} {\bibinfo
+  {journal} {Phys. Rev. C}\ }\textbf {\bibinfo {volume} {78}},\ \bibinfo
+  {pages} {044907} (\bibinfo {year} {2008}{\natexlab{a}})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Adam}\ \emph {et~al.}(2020)\citenamefont {Adam} \emph
+  {et~al.}}]{star_bes_strangeness}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {Adam}} \emph {et~al.} (\bibinfo {collaboration} {STAR Collaboration}),\
+  }\href {\doibase 10.1103/PhysRevC.102.034909} {\bibfield  {journal} {\bibinfo
+   {journal} {Phys. Rev. C}\ }\textbf {\bibinfo {volume} {102}},\ \bibinfo
+  {pages} {034909} (\bibinfo {year} {2020})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Gasik}\ \emph {et~al.}(2016)\citenamefont {Gasik}
+  \emph {et~al.}}]{FOPI_phi_AlAl}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {P.}~\bibnamefont
+  {Gasik}} \emph {et~al.},\ }\href
+  {http://dx.doi.org/10.1140/epja/i2016-16177-y} {\bibfield  {journal}
+  {\bibinfo  {journal} {Eur. Phys. J. A}\ }\textbf {\bibinfo {volume} {52}},\
+  \bibinfo {pages} {177} (\bibinfo {year} {2016})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Piasecki}\ \emph {et~al.}(2015)\citenamefont
+  {Piasecki} \emph {et~al.}}]{FOPI_phi_NiNi}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {K.}~\bibnamefont
+  {Piasecki}} \emph {et~al.} (\bibinfo {collaboration} {FOPI Collaboration}),\
+  }\href {\doibase 10.1103/PhysRevC.91.054904} {\bibfield  {journal} {\bibinfo
+  {journal} {Phys. Rev. C}\ }\textbf {\bibinfo {volume} {91}},\ \bibinfo
+  {pages} {054904} (\bibinfo {year} {2015})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Agakishiev}\ \emph
+  {et~al.}(2009{\natexlab{a}})\citenamefont {Agakishiev} \emph
+  {et~al.}}]{HADES_phi_ArKCl}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {G.}~\bibnamefont
+  {Agakishiev}} \emph {et~al.} (\bibinfo {collaboration} {HADES
+  Collaboration}),\ }\href {\doibase 10.1103/PhysRevC.80.025209} {\bibfield
+  {journal} {\bibinfo  {journal} {Phys. Rev. C}\ }\textbf {\bibinfo {volume}
+  {80}},\ \bibinfo {pages} {025209} (\bibinfo {year}
+  {2009}{\natexlab{a}})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Adamczewski-Musch}\ \emph {et~al.}(2018)\citenamefont
+  {Adamczewski-Musch} \emph {et~al.}}]{HADES_phi_AuAu}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {Adamczewski-Musch}} \emph {et~al.} (\bibinfo {collaboration} {HADES
+  Collaboration}),\ }\href {\doibase
+  https://doi.org/10.1016/j.physletb.2018.01.048} {\bibfield  {journal}
+  {\bibinfo  {journal} {Phys. Lett. B}\ }\textbf {\bibinfo {volume} {778}},\
+  \bibinfo {pages} {403 } (\bibinfo {year} {2018})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Meehan}(2016)}]{Meehan_2016}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {K.~C.}\ \bibnamefont
+  {Meehan}},\ }\href {\doibase 10.1088/1742-6596/742/1/012022} {\bibfield
+  {journal} {\bibinfo  {journal} {J. Phys. Conf. Ser.}\ }\textbf {\bibinfo
+  {volume} {742}},\ \bibinfo {pages} {012022} (\bibinfo {year}
+  {2016})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Anderson}\ \emph {et~al.}(2003)\citenamefont
+  {Anderson} \emph {et~al.}}]{TPC}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
+  {Anderson}} \emph {et~al.},\ }\href {\doibase 10.1016/S0168-9002(02)01964-2}
+  {\bibfield  {journal} {\bibinfo  {journal} {Nucl. Instrum. Meth.}\ }\textbf
+  {\bibinfo {volume} {A499}},\ \bibinfo {pages} {659} (\bibinfo {year}
+  {2003})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Llope}(2012)}]{TOF}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {W.~J.}\ \bibnamefont
+  {Llope}} (\bibinfo {collaboration} {for STAR}),\ }\href {\doibase
+  10.1016/j.nima.2010.07.086} {\bibfield  {journal} {\bibinfo  {journal} {Nucl.
+  Instrum. Meth.}\ }\textbf {\bibinfo {volume} {A661}},\ \bibinfo {pages}
+  {S110} (\bibinfo {year} {2012})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Whitten}(2008)}]{BBC_Whitten}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {C.~A.}\ \bibnamefont
+  {Whitten}} (\bibinfo {collaboration} {STAR}),\ }\href {\doibase
+  10.1063/1.2888113} {\bibfield  {journal} {\bibinfo  {journal} {AIP Conf.
+  Proc.}\ }\textbf {\bibinfo {volume} {980}},\ \bibinfo {pages} {390} (\bibinfo
+  {year} {2008})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Tanabashi}\ \emph {et~al.}(2018)\citenamefont
+  {Tanabashi} \emph {et~al.}}]{pdg}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
+  {Tanabashi}} \emph {et~al.} (\bibinfo {collaboration} {Particle Data
+  Group}),\ }\href {\doibase 10.1103/PhysRevD.98.030001} {\bibfield  {journal}
+  {\bibinfo  {journal} {Phys. Rev. D}\ }\textbf {\bibinfo {volume} {98}},\
+  \bibinfo {pages} {030001} (\bibinfo {year} {2018})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Kisel}(2018)}]{Kisel:2018nvd}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {I.}~\bibnamefont
+  {Kisel}} (\bibinfo {collaboration} {CBM}),\ }\href {\doibase
+  10.1088/1742-6596/1070/1/012015} {\bibfield  {journal} {\bibinfo  {journal}
+  {J. Phys. Conf. Ser.}\ }\textbf {\bibinfo {volume} {1070}},\ \bibinfo {pages}
+  {012015} (\bibinfo {year} {2018})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Adam}\ \emph {et~al.}(2021)\citenamefont {Adam} \emph
+  {et~al.}}]{STAR_PRL_Xi_Oemga_polarization}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {Adam}} \emph {et~al.} (\bibinfo {collaboration} {STAR Collaboration}),\
+  }\href {\doibase 10.1103/PhysRevLett.126.162301} {\bibfield  {journal}
+  {\bibinfo  {journal} {Phys. Rev. Lett.}\ }\textbf {\bibinfo {volume} {126}},\
+  \bibinfo {pages} {162301} (\bibinfo {year} {2021})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Xu}\ \emph {et~al.}(2010)\citenamefont {Xu} \emph
+  {et~al.}}]{Xu:2008th}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Y.}~\bibnamefont {Xu}}
+  \emph {et~al.},\ }\href {\doibase 10.1016/j.nima.2009.12.011} {\bibfield
+  {journal} {\bibinfo  {journal} {Nucl. Instrum. Meth.}\ }\textbf {\bibinfo
+  {volume} {A614}},\ \bibinfo {pages} {28} (\bibinfo {year}
+  {2010})}\BibitemShut {NoStop}%
+%%CITATION = ARXIV:0807.4303;%%
+\bibitem [{\citenamefont {Shao}\ \emph {et~al.}(2006)\citenamefont {Shao} \emph
+  {et~al.}}]{Shao:2005iu}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
+  {Shao}} \emph {et~al.},\ }\href {\doibase 10.1016/j.nima.2005.11.251}
+  {\bibfield  {journal} {\bibinfo  {journal} {Nucl. Instrum. Meth.}\ }\textbf
+  {\bibinfo {volume} {A558}},\ \bibinfo {pages} {419} (\bibinfo {year}
+  {2006})}\BibitemShut {NoStop}%
+%%CITATION = NUCL-EX/0505026;%%
+\bibitem [{\citenamefont {Abelev}\ \emph
+  {et~al.}(2009{\natexlab{a}})\citenamefont {Abelev} \emph
+  {et~al.}}]{STAR_particleYield}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {B.~I.}\ \bibnamefont
+  {Abelev}} \emph {et~al.} (\bibinfo {collaboration} {STAR Collaboration}),\
+  }\href {\doibase 10.1103/PhysRevC.79.034909} {\bibfield  {journal} {\bibinfo
+  {journal} {Phys. Rev. C}\ }\textbf {\bibinfo {volume} {79}},\ \bibinfo
+  {pages} {034909} (\bibinfo {year} {2009}{\natexlab{a}})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Agakishiev}\ \emph
+  {et~al.}(2009{\natexlab{b}})\citenamefont {Agakishiev} \emph
+  {et~al.}}]{Xi_ArKCl_HADES}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {G.}~\bibnamefont
+  {Agakishiev}} \emph {et~al.} (\bibinfo {collaboration} {HADES
+  Collaboration}),\ }\href {\doibase 10.1103/PhysRevLett.103.132301} {\bibfield
+   {journal} {\bibinfo  {journal} {Phys. Rev. Lett.}\ }\textbf {\bibinfo
+  {volume} {103}},\ \bibinfo {pages} {132301} (\bibinfo {year}
+  {2009}{\natexlab{b}})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Wheaton}\ \emph {et~al.}(2009)\citenamefont
+  {Wheaton}, \citenamefont {Cleymans},\ and\ \citenamefont
+  {Hauer}}]{THERMUS_WHEATON200984}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
+  {Wheaton}}, \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {Cleymans}}, \
+  and\ \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Hauer}},\ }\href
+  {\doibase https://doi.org/10.1016/j.cpc.2008.08.001} {\bibfield  {journal}
+  {\bibinfo  {journal} {Comput. Phys. Commun.}\ }\textbf {\bibinfo {volume}
+  {180}},\ \bibinfo {pages} {84} (\bibinfo {year} {2009})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Bleicher}\ \emph {et~al.}(1999)\citenamefont
+  {Bleicher} \emph {et~al.}}]{urQMD}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
+  {Bleicher}} \emph {et~al.},\ }\href
+  {http://stacks.iop.org/0954-3899/25/i=9/a=308} {\bibfield  {journal}
+  {\bibinfo  {journal} {J. Phys. G}\ }\textbf {\bibinfo {volume} {25}},\
+  \bibinfo {pages} {1859} (\bibinfo {year} {1999})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Bass}\ \emph {et~al.}(1998)\citenamefont {Bass} \emph
+  {et~al.}}]{UrQMD_2}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
+  {Bass}} \emph {et~al.},\ }\href {\doibase
+  https://doi.org/10.1016/S0146-6410(98)00058-1} {\bibfield  {journal}
+  {\bibinfo  {journal} {Prog. Part. Nucl. Phys.}\ }\textbf {\bibinfo {volume}
+  {41}},\ \bibinfo {pages} {255} (\bibinfo {year} {1998})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Steinheimer}\ and\ \citenamefont
+  {Bleicher}(2015)}]{Steinheimer_2015_UrQMD}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {Steinheimer}}\ and\ \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
+  {Bleicher}},\ }\href {\doibase 10.1088/0954-3899/43/1/015104} {\bibfield
+  {journal} {\bibinfo  {journal} {J. Phys. G: Nucl. Part. Phys.}\ }\textbf
+  {\bibinfo {volume} {43}},\ \bibinfo {pages} {015104} (\bibinfo {year}
+  {2015})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Steinberg}\ \emph {et~al.}(2019)\citenamefont
+  {Steinberg} \emph {et~al.}}]{Elfner_SMASH}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {V.}~\bibnamefont
+  {Steinberg}} \emph {et~al.},\ }\href {\doibase 10.1103/PhysRevC.99.064908}
+  {\bibfield  {journal} {\bibinfo  {journal} {Phys. Rev. C}\ }\textbf {\bibinfo
+  {volume} {99}},\ \bibinfo {pages} {064908} (\bibinfo {year}
+  {2019})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Alt}\ \emph {et~al.}(2008{\natexlab{b}})\citenamefont
+  {Alt} \emph {et~al.}}]{NA49_piK}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {C.}~\bibnamefont
+  {Alt}} \emph {et~al.} (\bibinfo {collaboration} {NA49 Collaboration}),\
+  }\href {\doibase 10.1103/PhysRevC.77.024903} {\bibfield  {journal} {\bibinfo
+  {journal} {Phys. Rev. C}\ }\textbf {\bibinfo {volume} {77}},\ \bibinfo
+  {pages} {024903} (\bibinfo {year} {2008}{\natexlab{b}})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Afanasiev}\ \emph {et~al.}(2002)\citenamefont
+  {Afanasiev} \emph {et~al.}}]{NA49_piK2}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.~V.}\ \bibnamefont
+  {Afanasiev}} \emph {et~al.} (\bibinfo {collaboration} {NA49 Collaboration}),\
+  }\href {\doibase 10.1103/PhysRevC.66.054902} {\bibfield  {journal} {\bibinfo
+  {journal} {Phys. Rev. C}\ }\textbf {\bibinfo {volume} {66}},\ \bibinfo
+  {pages} {054902} (\bibinfo {year} {2002})}\BibitemShut {NoStop}%
+\bibitem [{NA4(2008)}]{NA49_Xi}%
+  \BibitemOpen
+  \href {\doibase 10.1103/PhysRevC.78.034918} {\bibfield  {journal} {\bibinfo
+  {journal} {Phys. Rev. C}\ }\textbf {\bibinfo {volume} {78}},\ \bibinfo
+  {pages} {034918} (\bibinfo {year} {2008})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Abelev}\ \emph {et~al.}(2015)\citenamefont {Abelev}
+  \emph {et~al.}}]{ALICE_phi_2p7TeV}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {B.}~\bibnamefont
+  {Abelev}} \emph {et~al.} (\bibinfo {collaboration} {ALICE Collaboration}),\
+  }\href {\doibase 10.1103/PhysRevC.91.024609} {\bibfield  {journal} {\bibinfo
+  {journal} {Phys. Rev. C}\ }\textbf {\bibinfo {volume} {91}},\ \bibinfo
+  {pages} {024609} (\bibinfo {year} {2015})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Abelev}\ \emph
+  {et~al.}(2009{\natexlab{b}})\citenamefont {Abelev} \emph
+  {et~al.}}]{STAR_phi_64a200GeV}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {B.~I.}\ \bibnamefont
+  {Abelev}} \emph {et~al.} (\bibinfo {collaboration} {STAR Collaboration}),\
+  }\href {\doibase 10.1103/PhysRevC.79.064903} {\bibfield  {journal} {\bibinfo
+  {journal} {Phys. Rev. C}\ }\textbf {\bibinfo {volume} {79}},\ \bibinfo
+  {pages} {064903} (\bibinfo {year} {2009}{\natexlab{b}})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Braun-Munzinger}\ \emph {et~al.}(2004)\citenamefont
+  {Braun-Munzinger}, \citenamefont {Redlich},\ and\ \citenamefont
+  {Stachel}}]{BraunMunzinger:2003zd}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {P.}~\bibnamefont
+  {Braun-Munzinger}}, \bibinfo {author} {\bibfnamefont {K.}~\bibnamefont
+  {Redlich}}, \ and\ \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {Stachel}},\ }\href {\doibase 10.1142/9789812795533_0008} {\bibfield
+  {journal} {\bibinfo  {journal} {Quark–Gluon Plasma 3}\ ,\ \bibinfo {pages}
+  {491–599}} (\bibinfo {year} {2004})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Maeda}\ \emph {et~al.}(2008)\citenamefont {Maeda}
+  \emph {et~al.}}]{ANKE_phi}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Y.}~\bibnamefont
+  {Maeda}} \emph {et~al.},\ }\href {\doibase 10.1103/PhysRevC.77.015204}
+  {\bibfield  {journal} {\bibinfo  {journal} {Phys. Rev. C}\ }\textbf {\bibinfo
+  {volume} {77}},\ \bibinfo {pages} {015204} (\bibinfo {year}
+  {2008})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Aduszkiewicz}\ \emph {et~al.}(2017)\citenamefont
+  {Aduszkiewicz} \emph {et~al.}}]{NA61SHINE_pp_piKp}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {Aduszkiewicz}} \emph {et~al.} (\bibinfo {collaboration} {NA61/SHINE}),\
+  }\href {\doibase 10.1140/epjc/s10052-017-5260-4} {\bibfield  {journal}
+  {\bibinfo  {journal} {Eur. Phys. J. C}\ }\textbf {\bibinfo {volume} {77}},\
+  \bibinfo {pages} {671} (\bibinfo {year} {2017})},\ \Eprint
+  {http://arxiv.org/abs/1705.02467} {arXiv:1705.02467 [nucl-ex]} \BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Aduszkiewicz}\ \emph
+  {et~al.}(2020{\natexlab{a}})\citenamefont {Aduszkiewicz} \emph
+  {et~al.}}]{NA61SHINE_pp_phi}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {Aduszkiewicz}} \emph {et~al.} (\bibinfo {collaboration} {NA61/SHINE}),\
+  }\href {\doibase 10.1140/epjc/s10052-020-7675-6} {\bibfield  {journal}
+  {\bibinfo  {journal} {Eur. Phys. J. C}\ }\textbf {\bibinfo {volume} {80}},\
+  \bibinfo {pages} {199} (\bibinfo {year} {2020}{\natexlab{a}})},\ \Eprint
+  {http://arxiv.org/abs/1908.04601} {arXiv:1908.04601 [nucl-ex]} \BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Aduszkiewicz}\ \emph
+  {et~al.}(2020{\natexlab{b}})\citenamefont {Aduszkiewicz} \emph
+  {et~al.}}]{NA61SHINE_pp_Xi}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {Aduszkiewicz}} \emph {et~al.} (\bibinfo {collaboration} {NA61/SHINE}),\
+  }\href {\doibase 10.1140/epjc/s10052-020-8381-0} {\bibfield  {journal}
+  {\bibinfo  {journal} {Eur. Phys. J. C}\ }\textbf {\bibinfo {volume} {80}},\
+  \bibinfo {pages} {833} (\bibinfo {year} {2020}{\natexlab{b}})},\ \Eprint
+  {http://arxiv.org/abs/2006.02062} {arXiv:2006.02062 [nucl-ex]} \BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Hartnack}\ \emph {et~al.}(2012)\citenamefont
+  {Hartnack}, \citenamefont {Oeschler}, \citenamefont {Leifels}, \citenamefont
+  {Bratkovskaya},\ and\ \citenamefont {Aichelin}}]{Hartnack:2011cn}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {C.}~\bibnamefont
+  {Hartnack}}, \bibinfo {author} {\bibfnamefont {H.}~\bibnamefont {Oeschler}},
+  \bibinfo {author} {\bibfnamefont {Y.}~\bibnamefont {Leifels}}, \bibinfo
+  {author} {\bibfnamefont {E.~L.}\ \bibnamefont {Bratkovskaya}}, \ and\
+  \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {Aichelin}},\ }\href
+  {\doibase 10.1016/j.physrep.2011.08.004} {\bibfield  {journal} {\bibinfo
+  {journal} {Phys. Rept.}\ }\textbf {\bibinfo {volume} {510}},\ \bibinfo
+  {pages} {119} (\bibinfo {year} {2012})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Song}\ \emph {et~al.}(2021)\citenamefont {Song},
+  \citenamefont {Tolos}, \citenamefont {Wirth}, \citenamefont {Aichelin},\ and\
+  \citenamefont {Bratkovskaya}}]{Song:2020clw}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {T.}~\bibnamefont
+  {Song}}, \bibinfo {author} {\bibfnamefont {L.}~\bibnamefont {Tolos}},
+  \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {Wirth}}, \bibinfo
+  {author} {\bibfnamefont {J.}~\bibnamefont {Aichelin}}, \ and\ \bibinfo
+  {author} {\bibfnamefont {E.}~\bibnamefont {Bratkovskaya}},\ }\href {\doibase
+  10.1103/PhysRevC.103.044901} {\bibfield  {journal} {\bibinfo  {journal}
+  {Phys. Rev. C}\ }\textbf {\bibinfo {volume} {103}},\ \bibinfo {pages}
+  {044901} (\bibinfo {year} {2021})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Abdallah}\ \emph {et~al.}(2021)\citenamefont
+  {Abdallah} \emph {et~al.}}]{STAR:2021yiu}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
+  {Abdallah}} \emph {et~al.} (\bibinfo {collaboration} {STAR Collaboration}),\
+  }\href@noop {} {\  (\bibinfo {year} {2021})},\ \Eprint
+  {http://arxiv.org/abs/2108.00908} {arXiv:2108.00908 [nucl-ex]} \BibitemShut
+  {NoStop}%
+\end{thebibliography}%
