@@ -1,48 +1,7 @@
-% ****** Start of file apssamp.tex ******
-%
-%   This file is part of the APS files in the REVTeX 4.1 distribution.
-%   Version 4.1r of REVTeX, August 2010
-%
-%   Copyright (c) 2009, 2010 The American Physical Society.
-%
-%   See the REVTeX 4 README file for restrictions and more information.
-%
-% TeX'ing this file requires that you have AMS-LaTeX 2.0 installed
-% as well as the rest of the prerequisites for REVTeX 4.1
-%
-% See the REVTeX 4 README file
-% It also requires running BibTeX. The commands are as follows:
-%
-%  1)  latex apssamp.tex
-%  2)  bibtex apssamp
-%  3)  latex apssamp.tex
-%  4)  latex apssamp.tex
-%
-\documentclass[%
- reprint,	
-%superscriptaddress,
-%groupedaddress,
-%unsortedaddress,
-%runinaddress,
-%frontmatterverbose, 
-%preprint,
-showpacs,
-% preprintnumbers,
-%nofootinbib,
-%nobibnotes,
-%bibnotes,
- amsmath,amssymb,
- aps,
- superscriptaddress,
-%prl,
-%prc,
-%prb,
-%rmp,
-%prstab,
-%prstper,
-%floatfix,
-]{revtex4-1}
+\documentclass[review]{elsarticle}
 
+\usepackage{lineno,hyperref}
+\modulolinenumbers[5]
 \usepackage{graphicx}% Include figure files
 \usepackage{dcolumn}% Align table columns on decimal point
 \usepackage{bm}% bold math
@@ -55,89 +14,89 @@ showpacs,
 \usepackage{biolinum}
 \linenumbers\relax % Commence numbering lines
 
-%\usepackage[showframe,%Uncomment any one of the following lines to test 
-%%scale=0.7, marginratio={1:1, 2:3}, ignoreall,% default settings
-%%text={7in,10in},centering,
-%%margin=1.5in,
-%%total={6.5in,8.75in}, top=1.2in, left=0.9in, includefoot,
-%%height=10in,a5paper,hmargin={3cm,0.8in},
-%]{geometry}
+\journal{Journal of \LaTeX\ Templates}
 
-% \setcounter{secnumdepth}{5}
+%%%%%%%%%%%%%%%%%%%%%%%
+%% Elsevier bibliography styles
+%%%%%%%%%%%%%%%%%%%%%%%
+%% To change the style, put a % in front of the second line of the current style and
+%% remove the % from the second line of the style you would like to use.
+%%%%%%%%%%%%%%%%%%%%%%%
+
+%% Numbered
+%\bibliographystyle{model1-num-names}
+
+%% Numbered without titles
+%\bibliographystyle{model1a-num-names}
+
+%% Harvard
+%\bibliographystyle{model2-names.bst}\biboptions{authoryear}
+
+%% Vancouver numbered
+%\usepackage{numcompress}\bibliographystyle{model3-num-names}
+
+%% Vancouver name/year
+%\usepackage{numcompress}\bibliographystyle{model4-names}\biboptions{authoryear}
+
+%% APA style
+%\bibliographystyle{model5-names}\biboptions{authoryear}
+
+%% AMA style
+%\usepackage{numcompress}\bibliographystyle{model6-num-names}
+
+%% `Elsevier LaTeX' style
+\bibliographystyle{elsarticle-num}
+%%%%%%%%%%%%%%%%%%%%%%%
+
 \begin{document}
 
-\preprint{APS/123-QED}
+\begin{frontmatter}
 
 \title{Probing Strangeness Canonical Ensemble with $K^{-}$, $\phi(1020)$ and $\Xi^{-}$ Production in Au+Au Collisions at ${\sqrt{s_{\rm NN}} = \rm{3\,GeV}}$}% Force line breaks with \\
-%\thanks{A footnote to the article title}%
 
-% \author{Ann Author}
-% \altaffiliation[Also at ]{Physics Department, XYZ University.}%Lines break automatically or can be forced with \\
-% \author{Second Author}%
-% \email{Second.Author@institution.edu}
-% \affiliation{% Authors' institution and/or address\\ This line break forced with \textbackslash\textbackslash
-% }%
+%% Group authors per affiliation:
 \input{star-author-list-2021-06-22.aps.tex}
 
-\date{\today}% It is always \today, today,
-             %  but any date may be explicitly specified
+\linenumbers
+
+\date{\today}
 
 \begin{abstract}
-
-
 We report the first multi-differential measurements of strange hadrons of $K^{-}$, $\phi$ and $\Xi^{-}$ yields as well as the ratios of $\phi/K^-$ and $\phi/\Xi^-$ in Au+Au collisions at ${\sqrt{s_{\rm NN}} = \rm{3\,GeV}}$ with the STAR experiment fixed target configuration at RHIC. The $\phi$ mesons and $\Xi^{-}$ hyperons are measured through hadronic decay channels, $\phi\rightarrow K^+K^-$ and $\Xi^-\rightarrow \Lambda\pi^-$. 
 Collision centrality and rapidity dependence of the transverse momentum spectra for these strange hadrons are presented. The $4\pi$ yields and ratios are compared to thermal model and hadronic transport model predictions.
-%At the collision energy, thermal model with grand canonical ensemble under-predict the $\phi/K^-$ ratio while the result of canonical ensemble with correlation length $r_c \leq 4.2$\,fm reproduce both $\phi/K^-$ and $\phi/\Xi^-$  ratios for the 0-10\% central collisions. In addition, transport models including high mass resonance decays could also describe the $\phi/K^-$ ratio.
 At this collision energy, thermal model with grand canonical ensemble (GCE) under-predicts the $\phi/K^-$ ratio while the result of canonical ensemble (CE) calculations reproduce well the ratios of $\phi/K^-$, with the correlation length $r_c \sim 2.7$\,fm, and $\phi/\Xi^-$, $r_c \sim 4.2$\,fm, for the 0-10\% central collisions. Hadronic transport models including high mass resonance decays could also describe the ratios.
 While thermal calculations with GCE work well for strangeness production in high energy collisions, the change to CE at $\rm{3\,GeV}$ implies a rather different medium property at high baryon density. 
-%Our data of $\phi/K^-$ ratio exclude the calculation based on the grand canonical ensemble. The canonical ensemble approach employing local strangeness conservation with a small strangeness correlation length ($r_c \leq 4.2$\,fm) can reproduce the measured $\phi/K^-$ and $\phi/\Xi^-$ ratios in $\textup{0--10\%}$ central Au+Au collisions at ${\sqrt{s_{\rm NN}} = \rm{3\,GeV}}$. Transport models including the resonance decays can reasonably describe our measured $\phi/K^-$ ratio at 3 GeV and the increasing trend of $\phi/\Xi^-$ at lower energies.
-
-
-%\begin{description}
-%\item[Usage]
-%Secondary publications and information retrieval purposes.
-%\item[PACS numbers]
-%May be entered using the \verb+\pacs{#1}+ command.
-%\item[Structure]
-%You may use the \texttt{description} environment to structure your abstract; use the optional argument of the \verb+\item+ command to give the category of each item. 
-%\end{description}
 \end{abstract}
 
-%\pacs{25.75.-q, 25.75.Cj}% PACS, the Physics and Astronomy
-                             % Classification Scheme.
-%\keywords{Suggested keywords}%Use showkeys class option if keyword
-                              %display desired
+\end{frontmatter}
+
 \maketitle
 
+\linenumbers
+
 % Chapter one
-% \section{Introduction}
-% \label{introduction}
+\section{Introduction}
+\label{introduction}
 
 Relativistic heavy ion physics is aiming at the detailed investigation of phase structures of strongly interacting matter, governed by quantum chromodynamics (QCD), under extreme conditions of high temperature and density~\cite{akiba2015hot,Busza_ARNPS,StarWhitePaper}. Particle production has been studied to investigate properties of the produced QCD matter in heavy-ion collisions. The strange quark mass is comparable to the QCD renormalization scale ($\Lambda_{\rm{QCD}}$\,$\sim\textup{200 MeV}$)~\cite{Rafelski:1982pu,Koch:1986ud}, 
-%and the temperature of the produced medium
 therefore strange quark dynamics plays an important role in understanding the Equation-of-State (EoS) of QCD matter particularly in the high density region~\cite{KO_sQM17,Danielewicz1592,Tetyana_ICNN,KO.PhysRevLett.55.2661,Ks0_Lambda_HADES,CASSING.openCharm.2001753}. 
-%therefore strange quark dynamics plays an important role in understanding the QCD Equation-of-State of hot and dense nuclear matter particularly in the high density region~\cite{KO_sQM17,Danielewicz1592,Tetyana_ICNN,KO.PhysRevLett.55.2661,Ks0_Lambda_HADES,CASSING.openCharm.2001753}. 
 
 Statistical thermal models have often been used to characterize thermal properties of the produced media~\cite{Andronic_2018Naure,Rafelski_1980279,Cleymans:1992zc,Becattini:1997ii,Florkowski:2001fp,Redlich_CE,Rafelski_PRC}. In these models, grand canonical ensemble (GCE) and canonical ensemble (CE) statistical descriptions can be applied to conserve electric charge, baryon number, and strangeness number in order to compute the final state particle yields. Both GCE and CE models are able to describe various particle yields including strange particles produced in heavy-ion collisions at RHIC and the LHC at center-of-mass energy ($\sqrt{s_{\rm NN}}$) greater than 7.7\,GeV. It has been argued that at lower energies, strangeness number needs to be conserved locally on an event-by-event basis described by the CE, which leads to a reduction in the yields of hadrons with non-zero strangeness number (``Canonical Suppression")~\cite{Rafelski_1980279,Rafelski_2002,Redlich:2001kb}, but not for the $\phi(1020)$ meson with zero net strangeness number (S=0). The $\phi/K^-$ ratio is expected to increase with decreasing collision energy in models using the CE treatment for strangeness, opposite to the trend in the GCE treatment. The canonical suppression power for $\Xi^-$ (S=2) is even larger than for $K^-$ (S=1). The $\phi/K^-$ and $\phi/\Xi^-$ ratios offer a unique test to scrutinize thermodynamic properties of strange quarks in the hot and dense QCD environment.
 
-%The $\phi(1020)$ meson is the lightest bound state of strange quarks into a pair ($s\bar{s}$) with zero net strangeness number (S=0). %$\phi$ meson production in elementary collisions is suppressed compared to other strange hadrons due to the QCD Okubo-Zweig-Iizuka rule. 
-%In the GCE model, the $\phi/K^-$ ratio is expected to fall off as the collision energy decreases towards the threshold. In the CE model, $\phi$ meson production, unlike other strange hadrons ($K^-$, $\Xi^-$, etc.), is not affected by the strangeness canonical suppression.
-%Therefore, the $\phi/K^-$ ratio is expected to increase with decreasing collision energy in models using the CE treatment for strangeness. The canonical suppression power for $\Xi^-$ is even larger than for $K^-$. The $\phi/K^-$ and $\phi/\Xi^-$ ratios offer a unique test to scrutinize thermodynamic properties of strange quarks in the hot and dense QCD environment.
 
-% ?? do we need this paragraph?
 In heavy-ion collisions, the near/sub-threshold production of multi-strange hadrons can be achieved from the multiple collisions of nucleons, produced particles, and short-lived resonances~\cite{ZEEB2004297}. The particle production in heavy-ion collisions below its free nucleon-nucleon (NN) threshold ($\sqrt{s_{\rm NN}}$ $\sim$2.89\,GeV for $\phi$ and $\sim$3.25\,GeV for $\Xi^-$) is expected to be sensitive to the stiffness of the nuclear EoS at high density~\cite{yong2021double}, as it is for single-strange hadrons~\cite{KO.PhysRevLett.55.2661,FUCHS20061_kaons}. The near/sub-threshold production further provides the possibility
 to observe exotic states of QCD matter~\cite{McLerran:2007qj} and signatures of ``soft deconfinement"~\cite{Fukushima:2020cmk}.
  
 Previous measurements 
-%from the experiments at the AGS, SPS, RHIC and LHC 
 show that the $\phi/K^-$ ratio in heavy-ion collisions stays remarkably flat ($\sim$0.15) at collision energies ${\sqrt{s_{\rm NN}} > \textup{5 GeV}}$~\cite{E917_phi,NA49_phi,star_bes_strangeness}. Recent measurements of the $\phi/K^-$ ratio in heavy-ion collisions at collision energies below the $\phi$ free NN-threshold %from HADES and FOPI 
 show a hint of relative enhancement compared to those from high energies
 %at RHIC and the LHC
 ~\cite{FOPI_phi_AlAl,FOPI_phi_NiNi,HADES_phi_ArKCl,HADES_phi_AuAu}, indicative of the applicability of the CE description for strangeness production at these energies. In this Letter, we report high precision measurement of $\phi/K^-$ and $\phi/\Xi^-$ ratios in Au+Au collisions at ${\sqrt{s_{\rm NN}} = \rm{3\,GeV}}$ from the STAR experiment.
-%The RHIC Beam Energy Scan phase-II program, including both collider and fixed target setups with the STAR experiment, covers a center-of-mass energy range of 3.0--19.6\,GeV. This offers a great opportunity to conduct precise measurements of the energy dependence of the $\phi/K^-$ and $\phi/\Xi^-$ ratios at low collision energies, which are crucial in understanding the strangeness dynamics as well as the medium properties in high baryon density regions in QCD.
+
+\section{EXPERIMENT AND DATA ANALYSIS }
+\label{dataanalysis}
 
 The dataset used in this analysis
-%consists of Au+Au collisions at ${\sqrt{s_{\rm NN}} = \rm{3\,GeV}}$ collected by the STAR experiment operated
 was collected under the fixed target (FXT) setup~\cite{Meehan_2016} in the 2018 RHIC run. 
 A single beam was provided by RHIC with total energy equal to 3.85 GeV/nucleon and incident on a gold target of thickness 0.25 mm, corresponding to a 1\% interaction probability.
 The target is installed inside the vacuum pipe, 2\,cm below the center of the beam axis, and located 200\,cm to the west of the center of the STAR detector. The main detectors used are the Time Projection Chamber (TPC)~\cite{TPC}, the Time of Flight (TOF) detector~\cite{TOF}, and the Beam-Beam Counter (BBC)~\cite{BBC_Whitten}. The trigger is provided by the signal in the east BBC detector and at least five hits in the TOF detector. Tracking and particle identification (PID) are done using the TPC and TOF. Both the TPC and TOF detectors have full azimuthal coverage within a pseudorapidity range of 0$<$\,$\eta$\,$<$\,1.88 for the TPC and 0$<$\,$\eta$\,$<$\,1.5 for the TOF in FXT mode~\cite{TPC,TOF}. Events are selected with the offline reconstructed collision vertex within 1.5\,cm of the target center along the beam direction. Approximately 2.6$\times 10^{8}$ minimum bias (MB) triggered events passed the selection criteria and are used in this analysis. 
@@ -151,9 +110,10 @@ The charged tracks are identified via a combination of the ionization energy los
 measurement with the TPC and the time-of-flight %($tof$) 
 measurement with the TOF. A minimum $p_T$ cut of 0.2 GeV/$c$ is required in the analysis.
 Since the $K^{-}/\pi^{-}$ ratio is much smaller than the $K^{+}/\pi^{+}$ ratio at low energies, to reduce the contamination from $\pi^{-}$ tracks, a strict PID criterion for $K^{-}$ requiring both TPC and TOF is implemented~\cite{Xu:2008th,Shao:2005iu}.
-%Due to the charge asymmetry for the particle yields at ${\sqrt{s_{\rm NN}} = \rm{3\,GeV}}$, a strict PID criterion requiring both TPC and TOF is implemented for $K^-$~\cite{Xu:2008th,Shao:2005iu}. 
 
 
+\section{RESULTS AND DISCUSSIONS}
+\label{results}
 
 \begin{figure}
 \centering
@@ -165,14 +125,11 @@ Since the $K^{-}/\pi^{-}$ ratio is much smaller than the $K^{+}/\pi^{+}$ ratio a
 
 
 Figure~\ref{fig:phiSignal} (a) shows the invariant mass distribution of $K^+K^-$ pairs in the transverse momentum ($p_{T}$) region of 0.4--1.6 GeV/$c$ for 0--60\% central collisions. The combinatorial background is estimated with the mixed-event (ME) technique in which $K^+$ and $K^-$ from different events of similar characteristics (centrality, event plane angle) are paired. The mixed-event spectra are normalized to the same-event (SE) distributions in the mass range of 1.04--1.08\,GeV/$c^2$. After the subtraction of the combinatorial background, the remainder distribution, shown as red solid circles, 
-%The $K^+K^-$ invariant mass remainder distribution 
 is fitted with a Breit-Wigner function for the signal plus a linear function which represents the remaining correlated background ($< 1\%$) from a partial reconstruction of strange hadrons. The $\phi$ meson raw yields are extracted from the Breit-Wigner function fit within the corresponding 3$\sigma$ mass window. The extracted $\phi$ signal shape is consistent with its intrinsic properties convoluted with the detector smearing effect due to finite momentum resolution ($<3\%$ for single track).
 Figure~\ref{fig:phiSignal} (b) shows the invariant mass distribution of $\Lambda(p\pi^-)\pi^-$ in the $p_{T}$ region of 0.5--2.0 GeV/$c$ for $\textup{0--40\%}$ central collisions. The combinatorial background is estimated with the rotating daughter (Rot) method, in which a daughter track of $\Xi^-$ is rotated by a random angle between 150 to 210 degrees in the transverse plane. The rotated spectra are normalized to the same-event distributions in the mass ranges of 1.30--1.31 and 1.34--1.35\,GeV/$c^2$. After the combinatorial background is subtracted, the $\Lambda\pi^-$ invariant mass distribution is fitted with a Gaussian for the signal plus a linear function for the remaining correlated background. The $\Xi^-$ raw yields are obtained via histogram bin counting from the invariant mass distributions with all background subtracted within mass windows of 3$\sigma$. The reconstructed $\phi$ and $\Xi^-$ acceptances ($p_T$ vs. $y_{cm}$) in the collision center-of-mass frame are shown in Fig.~\ref{fig:phiSignal} (c) and (d), respectively.
 The target is located at $y_{cm} = -1.05$, using the convention where the beam travels in the positive direction. The red curve represents the TPC and TOF acceptance edge. %The reconstructed $\phi$ and $\Xi$ in this analysis cover the range from the target to mid-rapidity.
 
-%The reconstructed $K^-$, $\phi$, and $\Xi^-$ 
-Particle
-raw yields are calculated in each centrality and $p_{T}$ bin within each rapidity slice. 
+Particle raw yields are calculated in each centrality and $p_{T}$ bin within each rapidity slice. 
 The raw yields are corrected for the TPC acceptance and tracking efficiency, %$\varepsilon_{\rm TPC}$, 
 the particle identification efficiency, %$\varepsilon_{\rm PID}$ 
 and the TOF matching and PID efficiency. The final average reconstruction (including acceptance etc.) efficiency is $\sim$0.30, 0.04, and 0.02 for $K^-$, $\phi$ and $\Xi^-$, respectively. As a cross-check, we conducted the measurement of $\Xi^{-}$ lifetime from the same data and the result is $164.2\pm6.6$ ps, consistent with the PDG value, $163.9\pm1.5$ ps. The corrected $p_T$ spectra in symmetric rapidity bins (-0.2,0) vs. (0,0.2) are also consistent.
@@ -206,16 +163,15 @@ For the $p_T$ integrated yield, the uncertainty due to the extrapolation to the 
 \centering
 \hspace*{-4mm}
 \includegraphics[width=0.5\textwidth]{fig3_dndy-eps-converted-to.pdf}
-  \caption{Rapidity density distributions of $K^-$ (squares), $\phi$ meson (circles) and $\Xi^-$ (diamonds) $p_T$-integrated yields $dN/dy$ in 0--10\% (a), 10--40\% (b) and 40--60\% central (c) Au+Au collisions at ${\sqrt{s_{\rm NN}} = \rm{3\,GeV}}$. %The full symbols show the measured data, while the open ones are data reflected with respect to $y=0$ in the center-of-mass frame. 
+  \caption{Rapidity density distributions of $K^-$ (squares), $\phi$ meson (circles) and $\Xi^-$ (diamonds) $p_T$-integrated yields $dN/dy$ in 0--10\% (a), 10--40\% (b) and 40--60\% central (c) Au+Au collisions at ${\sqrt{s_{\rm NN}} = \rm{3\,GeV}}$.
   Solid lines depict Gaussian function fits to the data points.}
 \label{fig:phiYSpectra} 
 \end{figure}
 
-Figure~\ref{fig:phimTSpectra} shows the acceptance $\times$ efficiency corrected $K^-$, $\phi$ and $\Xi^-$ invariant yields as a function of $m_T-m_0$ ($m_T = \sqrt{m_{0}^{2}+p_{T}^2}$) for various rapidity ranges in 0--10\% central Au+Au collisions at ${\sqrt{s_{\rm NN}} = \rm{3\,GeV}}$. %The $\phi$-meson, $K^-$ and $\Xi^-$ spectra in some rapidity intervals are scaled with arbitrary factors indicated in the figure for clarity. 
+Figure~\ref{fig:phimTSpectra} shows the acceptance $\times$ efficiency corrected $K^-$, $\phi$ and $\Xi^-$ invariant yields as a function of $m_T-m_0$ ($m_T = \sqrt{m_{0}^{2}+p_{T}^2}$) for various rapidity ranges in 0--10\% central Au+Au collisions at ${\sqrt{s_{\rm NN}} = \rm{3\,GeV}}$. 
 Dashed and solid lines depict fits to the spectra with the $m_T$-exponential function in order to extrapolate to the unmeasured $p_T$ ranges. Please see the Supplement Material for the $p_T$ spectra in other rapidity and centrality bins.
-The $p_T$ integrated rapidity distributions $dN/dy$ are displayed in Fig.~\ref{fig:phiYSpectra} for Au+Au collisions at ${\sqrt{s_{\rm NN}} = \rm{3\,GeV}}$ for three different centralities. %The full symbols show the measured data, while the open ones are data reflected with respect to $y=0$ in the center-of-mass frame. 
+The $p_T$ integrated rapidity distributions $dN/dy$ are displayed in Fig.~\ref{fig:phiYSpectra} for Au+Au collisions at ${\sqrt{s_{\rm NN}} = \rm{3\,GeV}}$ for three different centralities. 
 Solid curves depict Gaussian function fits to the data points with the centroid parameter fixed to zero. They are used to extrapolate to the unmeasured rapidity region for calculating total multiplicities.
-%in order to calculate the total multiplicities per triggered event for each particle.
 
 
 \begin{figure}
@@ -227,35 +183,32 @@ Solid curves depict Gaussian function fits to the data points with the centroid 
 \end{figure}
 
 
-The $\phi/K^-$ and $\phi/\Xi^-$ ratios are presented in Fig.~\ref{fig:phi2Kratio} as a function of collision energy $\sqrt{s_{\rm NN}}$, including the midrapidity data in central Au+Au or Pb+Pb data from the AGS, SPS and RHIC BES at higher energies and $4\pi$\,acceptance data from SIS at lower energies. The black solid circles show our measurements in the 0-10\% centrality bin in Au+Au collisions at ${\sqrt{s_{\rm NN}} = \rm{3\,GeV}}$. The measured $\phi$, $K^-$ and $\Xi^-$ yields in 4$\pi$ and the $\phi/K^-$, $\phi/\Xi^-$ ratios in different centrality bins are listed in Tab.~\ref{table:yieldTratio}. The $\phi/K^-$ and $\phi/\Xi^-$ ratios measured at 3\,GeV are %significantly ($5\sigma$) above the GCE prediction ($\sim$0), and 
-slightly higher than, or comparable to, the values at high energies for $\sqrt{s_{\rm NN}}\geqslant$ 5\,GeV~\cite{NA49_phi,NA49_piK,NA49_piK2,NA49_Xi,E917_phi,ALICE_phi_2p7TeV,STAR_phi_64a200GeV,Xi_ArKCl_HADES,star_bes_strangeness} despite the collision energy being very close to the $\phi$ threshold and below the $\Xi^-$ threshold in NN collisions. %The measured data points follow the energy dependence trend, with the value gradually increasing with decreasing energy at low $\sqrt{s_{\rm NN}}$. %Our measured data points confirmed this enhancement observation which limited by the precision in the previous measurements.
+The $\phi/K^-$ and $\phi/\Xi^-$ ratios are presented in Fig.~\ref{fig:phi2Kratio} as a function of collision energy $\sqrt{s_{\rm NN}}$, including the midrapidity data in central Au+Au or Pb+Pb data from the AGS, SPS and RHIC BES at higher energies and $4\pi$\,acceptance data from SIS at lower energies. The black solid circles show our measurements in the 0-10\% centrality bin in Au+Au collisions at ${\sqrt{s_{\rm NN}} = \rm{3\,GeV}}$. The measured $\phi$, $K^-$ and $\Xi^-$ yields in 4$\pi$ and the $\phi/K^-$, $\phi/\Xi^-$ ratios in different centrality bins are listed in Tab.~\ref{table:yieldTratio}. The $\phi/K^-$ and $\phi/\Xi^-$ ratios measured at 3\,GeV are 
+slightly higher than, or comparable to, the values at high energies for $\sqrt{s_{\rm NN}}\geqslant$ 5\,GeV~\cite{NA49_phi,NA49_piK,NA49_piK2,NA49_Xi,E917_phi,ALICE_phi_2p7TeV,STAR_phi_64a200GeV,Xi_ArKCl_HADES,star_bes_strangeness} despite the collision energy being very close to the $\phi$ threshold and below the $\Xi^-$ threshold in NN collisions. 
 
-Various curves in Fig.~\ref{fig:phi2Kratio} represent the predictions of $\phi/K^-$ and $\phi/\Xi^-$ ratios from several model calculations in central A+A collisions. Statistical model calculations, based on the Grand Canonical Ensemble and Canonical Ensemble for strangeness with several different choices of strangeness correlation length ($r_c$), were calculated using the $\textup{THERMUS}$ package~\cite{THERMUS_WHEATON200984} with energy dependent freeze-out parameters ($T_{\rm ch}$, $\mu_B$) taken from~\cite{Andronic_2018Naure}. %These parameters were extracted through a thermal model fit to the particle yields at mid-rapidity. 
+Various curves in Fig.~\ref{fig:phi2Kratio} represent the predictions of $\phi/K^-$ and $\phi/\Xi^-$ ratios from several model calculations in central A+A collisions. Statistical model calculations, based on the Grand Canonical Ensemble and Canonical Ensemble for strangeness with several different choices of strangeness correlation length ($r_c$), were calculated using the $\textup{THERMUS}$ package~\cite{THERMUS_WHEATON200984} with energy dependent freeze-out parameters ($T_{\rm ch}$, $\mu_B$) taken from~\cite{Andronic_2018Naure}. 
 We noted that the $\phi/K^-$ and $\phi/\Xi^-$ ratios from GCE depend on $\mu_{S}$. The same relation, $\mu_{S}$ = $\mu_{B}/4$ from the STAR BES-I data~\cite{star_bes_strangeness}, was used in this GCE calculation. 
-%The strangeness number is conserved on average in the GCE.
-With unprecedented precision, our data exclude the GCE calculation, %fails to describe our new measurements at ${\sqrt{s_{\rm NN}} = \rm{3\,GeV}}$ at 5.2$\sigma$
-which indicates the event-by-event strangeness conservation %thermal particle phase-space at low energies is far from the GCE limit and the local treatment of strangeness conservation 
-is crucial~\cite{BraunMunzinger:2003zd} in such collisions. In the canonical approach, the correlation length, $r_c$, defines a region of the particle production phase space inside which the production of the strangeness is canonically conserved. Both the $\phi/K^-$ and $\phi/\Xi^-$ data from our measurement favor the CE thermodynamics for strangeness with a small strangeness correlation length ($r_c \sim 2.7$\,fm for $\phi/K^-$ and $r_c \sim 4.2$\,fm for $\phi/\Xi^-$). It is worthwhile to point out that the CE calculations with the same $r_c$ parameter cannot describe our $\phi/K^-$ and $\phi/\Xi^-$ data simultaneously (as also observed in lighter systems and at lower collision energy ~\cite{HADES_phi_ArKCl}). %The production yields of $\phi$ and $\Xi^-$ in near/sub-threshold regions based on the thermal model calculations are sensitive to the freeze-out parameters. 
+With unprecedented precision, our data exclude the GCE calculation, 
+which indicates the event-by-event strangeness conservation 
+is crucial~\cite{BraunMunzinger:2003zd} in such collisions. In the canonical approach, the correlation length, $r_c$, defines a region of the particle production phase space inside which the production of the strangeness is canonically conserved. Both the $\phi/K^-$ and $\phi/\Xi^-$ data from our measurement favor the CE thermodynamics for strangeness with a small strangeness correlation length ($r_c \sim 2.7$\,fm for $\phi/K^-$ and $r_c \sim 4.2$\,fm for $\phi/\Xi^-$). It is worthwhile to point out that the CE calculations with the same $r_c$ parameter cannot describe our $\phi/K^-$ and $\phi/\Xi^-$ data simultaneously (as also observed in lighter systems and at lower collision energy ~\cite{HADES_phi_ArKCl}). 
 A global thermal model fit with all the particle yields at 3\,GeV will help to precisely determine these thermal parameters in the future.
 
 Previous measurements from smaller collision systems (Ar+KCl and Al+Al collisions) show comparable or higher $\phi/K^-$ and/or $\phi/\Xi^-$ ratios at energies below 3\,GeV~\cite{FOPI_phi_AlAl,FOPI_phi_NiNi,HADES_phi_ArKCl,Xi_ArKCl_HADES}. The measurement in $p$+$p$ collisions at $\textup{2.7 GeV}$ shows a much larger $\phi/K^-$ ratio ($1.04\pm0.23$)~\cite{ANKE_phi}, while the measured ratio at $\textup{17.3 GeV}$ ($0.11\pm0.01$) is comparable to that in central Au+Au/Pb+Pb collisions at similar energies. The $\phi/\Xi^-$ ratio in $p$+$p$ collisions at 17.3\,GeV, $5.09\pm0.36$, is also significantly larger than that in central Au+Au/Pb+Pb collisions ~\cite{NA61SHINE_pp_piKp,NA61SHINE_pp_phi,NA61SHINE_pp_Xi}. In our measurement at 3 GeV, there is no obvious difference in the $\phi/K^-$ ratio between the \textup{0--10\%} and \textup{10--40\%} central bins, while the result in the most peripheral 40--60\% central bin shows a hint of a larger value, as shown in Tab.~\ref{table:yieldTratio}. Similarly, the $\phi/\Xi^-$ ratio in mid-central collisions seems to be larger than that in central collisions. Overall, these observations are qualitatively consistent with the expectation that a smaller canonical volume in the smaller system leads to a higher observed $\phi/K^-$ and/or $\phi/\Xi^-$ ratio.
 
 Hadronic transport models are widely used in the high baryon density region to study the properties of the produced dense matter~\cite{urQMD,UrQMD_2,Steinheimer_2015_UrQMD,Elfner_SMASH,Hartnack:2011cn,Song:2020clw}. In the modified version of the Ultra-relativistic Quantum Molecular Dynamics (UrQMD) model~\cite{Steinheimer_2015_UrQMD}, new decay channels from high mass baryon resonances to $\phi$ and $\Xi^-$ are deployed. The relevant decay branching fraction was determined by fitting the experimental data from $p$+$p$ collisions~\cite{ANKE_phi}. From the comparison shown in Fig.~\ref{fig:phi2Kratio}, the modified $\textup{UrQMD}^{2}$ calculation for central ($\rm{b}<5\,\rm{fm}$) Au+Au collisions agrees with the data points at low ${\sqrt{s_{\rm NN}}}$, including our new measurement for $\phi/K^-$.
-%, while the calculation for $\phi/\Xi^-$ currently is not available in this energy. 
 However calculations from the public $\textup{UrQMD}^{1}$ model underestimate our measurements for both $\phi/K^-$ and $\phi/\Xi^-$.   
-%while clearly underestimating the measurements at high $\sqrt{s_{\rm NN}}\geqslant$ 5\,GeV.
-The SMASH
-%Another hadronic transport approach called 
-(Simulating Many Accelerated Strongly-interacting Hadrons) model attempts to incorporate the newest available experimental data from both elementary hadronic cross sections and dilepton invariant mass spectra to constrain the resonance branching ratios~\cite{Elfner_SMASH}. The $\phi/K^-$ ratio is reasonably reproduced using SMASH in the smaller system and ${\sqrt{s_{\rm NN}}}$ below $\textup{3 GeV}$, despite the overestimation of each individual ($\phi$, $K^-$) transverse mass spectrum measured, e.g. in Au+Au $\textup{0-40\%}$ system by HADES~\cite{Elfner_SMASH,HADES_phi_AuAu}. The predicted $\phi/K^-$ ratio from the same model is about is 2.5$\sigma$ higher than central Au+Au 0--10\% collisions at $\textup{3 GeV}$. This indicates that some important in-medium mechanism for strangeness production and propagation may be missing for the large system in SMASH.
+The SMASH (Simulating Many Accelerated Strongly-interacting Hadrons) model attempts to incorporate the newest available experimental data from both elementary hadronic cross sections and dilepton invariant mass spectra to constrain the resonance branching ratios~\cite{Elfner_SMASH}. The $\phi/K^-$ ratio is reasonably reproduced using SMASH in the smaller system and ${\sqrt{s_{\rm NN}}}$ below $\textup{3 GeV}$, despite the overestimation of each individual ($\phi$, $K^-$) transverse mass spectrum measured, e.g. in Au+Au $\textup{0-40\%}$ system by HADES~\cite{Elfner_SMASH,HADES_phi_AuAu}. The predicted $\phi/K^-$ ratio from the same model is about is 2.5$\sigma$ higher than central Au+Au 0--10\% collisions at $\textup{3 GeV}$. This indicates that some important in-medium mechanism for strangeness production and propagation may be missing for the large system in SMASH.
 
+\section{SUMMARY}
+\label{summary}
 
 In summary, we report the systematic measurements of $K^-$, $\phi(1020)$ and $\Xi^{-}$ production yields and the $\phi/K^-$, $\phi/\Xi^-$ ratios in Au+Au collisions at ${\sqrt{s_{\rm NN}} = \rm{3\,GeV}}$ with the STAR experiment at RHIC. The measured $\phi/K^-$ ratio is significantly larger than the statistical model prediction based on Grand Canonical Ensemble in the $\textup{0--10\%}$ central collisions. Both the results of $\phi/K^-$ ($r_c \sim 2.7$\,fm) and $\phi/\Xi^-$ ($r_c \sim 4.2$\,fm) ratios favor the Canonical Ensemble model for strangeness production in such collisions. Transport models, including the resonance decays, could reasonably describe our measured $\phi/K^-$ ratio at $\textup{3 GeV}$ and the increasing trend of $\phi/\Xi^-$ at lower energies. 
 Note that the measurement of collective flow from the 3 GeV Au+Au collisions imply a new EoS dominated by baryonic interactions~\cite{STAR:2021yiu}. The new results from this paper suggest a significant change in the strangeness production at ${\sqrt{s_{\rm NN}} = \rm{3\,GeV}}$ compared to higher collision energies, providing new insights towards the understanding of the QCD medium properties at high baryon density~\cite{KO_sQM17}. 
 
 
 % Chapter acknowledgement
-%\section{Acknowledgement}
-%\label{acknowledgement}
+\section{Acknowledgement}
+\label{acknowledgement}
 
 We would like to thank K. Redlich and J. Steinheimer for fruitful discussions.
 We thank the RHIC Operations Group and RCF at BNL, the NERSC Center at LBNL, and the Open Science Grid consortium for providing resources and support.  This work was supported in part by the Office of Nuclear Physics within the U.S. DOE Office of Science, the U.S. National Science Foundation, the Ministry of Education and Science of the Russian Federation, National Natural Science Foundation of China, Chinese Academy of Science, the Ministry of Science and Technology of China and the Chinese Ministry of Education, the Higher Education Sprout Project by Ministry of Education at NCKU, the National Research Foundation of Korea, Czech Science Foundation and Ministry of Education, Youth and Sports of the Czech Republic, Hungarian National Research, Development and Innovation Office, New National Excellency Programme of the Hungarian Ministry of Human Capacities, Department of Atomic Energy and Department of Science and Technology of the Government of India, the National Science Centre of Poland, the Ministry  of Science, Education and Sports of the Republic of Croatia, RosAtom of Russia and German Bundesministerium f\"ur Bildung, Wissenschaft, Forschung and Technologie (BMBF), Helmholtz Association, Ministry of Education, Culture, Sports, Science, and Technology (MEXT) and Japan Society for the Promotion of Science (JSPS).
@@ -264,5 +217,3 @@ We thank the RHIC Operations Group and RCF at BNL, the NERSC Center at LBNL, and
 
 
 \end{document}
-%
-% ****** End of file apssamp.tex ******
