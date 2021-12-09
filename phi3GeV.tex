@@ -35,7 +35,7 @@
 %\bibliographystyle{model1-num-names}
 
 %% Numbered without titles
-\bibliographystyle{model1a-num-names}
+%\bibliographystyle{model1a-num-names}
 
 %% Harvard
 %\bibliographystyle{model2-names.bst}
@@ -59,6 +59,8 @@
 
 %% `Elsevier LaTeX' style
 %\bibliographystyle{elsarticle-num}
+%\bibliographystyle{elsarticle-num-names}
+%\bibliographystyle{elsarticle-harv}
 %%%%%%%%%%%%%%%%%%%%%%%
 
 \begin{document}
@@ -142,6 +144,7 @@ The raw yields are corrected for the TPC acceptance and tracking efficiency, %$\
 the particle identification efficiency, %$\varepsilon_{\rm PID}$ 
 and the TOF matching and PID efficiency. The final average reconstruction (including acceptance etc.) efficiency is $\sim$0.30, 0.04, and 0.02 for $K^-$, $\phi$ and $\Xi^-$, respectively. As a cross-check, we conducted the measurement of $\Xi^{-}$ lifetime from the same data and the result is $164.2\pm6.6$ ps, consistent with the PDG value, $163.9\pm1.5$ ps. The corrected $p_T$ spectra in symmetric rapidity bins (-0.2,0) vs. (0,0.2) are also consistent.
 
+
 % \begin{figure}
 % \centering
 % \hspace*{-4mm}
@@ -174,6 +177,22 @@ For the $p_T$ integrated yield, the uncertainty due to the extrapolation to the 
 \label{results}
 
 
+
+Figure~\ref{fig:phimTSpectra} shows the acceptance $\times$ efficiency corrected $K^-$, $\phi$ and $\Xi^-$ invariant yields as a function of $m_T-m_0$ ($m_T = \sqrt{m_{0}^{2}+p_{T}^2}$) for various rapidity ranges in 0--10\% central Au+Au collisions at ${\sqrt{s_{\rm NN}} = \rm{3\,GeV}}$. 
+Dashed and solid lines depict fits to the spectra with the $m_T$-exponential function in order to extrapolate to the unmeasured $p_T$ ranges. Please see the Supplement Material for the $p_T$ spectra in other rapidity and centrality bins.
+The $p_T$ integrated rapidity distributions $dN/dy$ are displayed in Fig.~\ref{fig:phiYSpectra} for Au+Au collisions at ${\sqrt{s_{\rm NN}} = \rm{3\,GeV}}$ for three different centralities. 
+Solid curves depict Gaussian function fits to the data points with the centroid parameter fixed to zero. They are used to extrapolate to the unmeasured rapidity region for calculating total multiplicities.
+
+
+\begin{figure}
+\centering
+\hspace*{-4mm}
+\includegraphics[width=0.43\textwidth]{fig2_mT_spectra-eps-converted-to.pdf}
+  \caption{$K^-$ (a), $\phi$ meson (b) and $\Xi^-$ (c) invariant yields as a function of $m_T-m_0$ for various rapidity regions in 0--10\% central Au+Au collisions at ${\sqrt{s_{\rm NN}} = \rm{3\,GeV}}$. Statistical and systematic uncertainties are added quadratically here for plotting. Solid and dashed black lines depict $m_T$ exponential function fits to the measured data points with scaling factors in each rapidity windows.}
+\label{fig:phimTSpectra} 
+\end{figure}
+
+
 \begin{table*}
 \centering{
   \caption{$\phi$, $K^-$, $\Xi^-$ integrated yields and $\phi/K^-$ and $\phi/\Xi^-$ ratios for given centrality classes in Au+Au collisions at ${\sqrt{s_{\rm NN}} = \rm{3\,GeV}}$. The first error given corresponds to the statistical one, the second to the systematic error.}
@@ -195,6 +214,7 @@ For the $p_T$ integrated yield, the uncertainty due to the extrapolation to the 
   Solid lines depict Gaussian function fits to the data points.}
 \label{fig:phiYSpectra} 
 \end{figure}
+
 
 
 
