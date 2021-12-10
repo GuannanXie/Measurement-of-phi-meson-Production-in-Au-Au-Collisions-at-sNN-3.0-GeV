@@ -4,6 +4,8 @@
 \usepackage{bm}
 \usepackage{times}
 \usepackage{lineno}
+\usepackage{amssymb}
+\usepackage[section]{placeins}
 \usepackage[pscoord]{eso-pic}
 
 %\documentclass[review,tightenlines,superscriptaddress,twocolumn]{elsarticle}
@@ -35,7 +37,7 @@
 %\bibliographystyle{model1-num-names}
 
 %% Numbered without titles
-\bibliographystyle{model1a-num-names}
+%\bibliographystyle{model1a-num-names}
 
 %% Harvard
 %\bibliographystyle{model2-names.bst}
@@ -142,28 +144,16 @@ The raw yields are corrected for the TPC acceptance and tracking efficiency, %$\
 the particle identification efficiency, %$\varepsilon_{\rm PID}$ 
 and the TOF matching and PID efficiency. The final average reconstruction (including acceptance etc.) efficiency is $\sim$0.30, 0.04, and 0.02 for $K^-$, $\phi$ and $\Xi^-$, respectively. As a cross-check, we conducted the measurement of $\Xi^{-}$ lifetime from the same data and the result is $164.2\pm6.6$ ps, consistent with the PDG value, $163.9\pm1.5$ ps. The corrected $p_T$ spectra in symmetric rapidity bins (-0.2,0) vs. (0,0.2) are also consistent.
 
-% \begin{figure}
-% \centering
-% \hspace*{-4mm}
-% \includegraphics[width=0.43\textwidth]{fig2_mT_spectra-eps-converted-to.pdf}
-%   \caption{$K^-$ (a), $\phi$ meson (b) and $\Xi^-$ (c) invariant yields as a function of $m_T-m_0$ for various rapidity regions in 0--10\% central Au+Au collisions at ${\sqrt{s_{\rm NN}} = \rm{3\,GeV}}$. Statistical and systematic uncertainties are added quadratically here for plotting. Solid and dashed black lines depict $m_T$ exponential function fits to the measured data points with scaling factors in each rapidity windows.}
-% \label{fig:phimTSpectra} 
-% \end{figure}
 
 \begin{figure*}
 \centering
+\hspace*{-10mm}
 \includegraphics[width=0.43\textwidth]{fig21-eps-converted-to.pdf}
+\hspace*{+15mm}
 \includegraphics[width=0.43\textwidth]{fig22-eps-converted-to.pdf}
 \caption{$K^-$ (a), $\phi$ meson (b) and $\Xi^-$ (c) invariant yields as a function of $m_T-m_0$ for various rapidity regions in 0--10\% (left) and  10--40\% (right) centrality Au+Au collisions at ${\sqrt{s_{\rm NN}} = \rm{3\,GeV}}$. Statistical and systematic uncertainties are added quadratically here for plotting. Solid and dashed black lines depict $m_T$ exponential function fits to the measured data points with scaling factors in each rapidity windows.}
 \label{fig:phimTSpectra21}
 \end{figure*}
-
-\begin{figure}
-\centering
-\includegraphics[width=0.43\textwidth]{fig23-eps-converted-to.pdf}
-\caption{$K^-$ (a) and $\phi$ meson (b) invariant yields as a function of $m_T-m_0$ for various rapidity regions in 40--60\% centrality Au+Au collisions at ${\sqrt{s_{\rm NN}} = \rm{3\,GeV}}$.}
-\label{fig:phimTSpectra23}
-\end{figure}
 
 
 The systematic uncertainty of the raw yield extraction is estimated by changing the histogram fitting method to bin counting method or by changing the fitting ranges. The maximum difference between these scenarios and the default one is considered as one standard deviation. The contribution varies by $p_T$, rapidity, and centrality and the overall contribution is less than 5\% for the invariant yield. The systematic uncertainty in the TPC acceptance and efficiency correction $\varepsilon_{\rm TPC}$ is estimated by varying the cuts on track selection criteria and topological variables (for $\Xi^-$ only). The contribution to the total yield is 4-5\% for $K^-$, 13-16\% for $\phi$ and 6-10\% for $\Xi^-$. This leads to a 10-13\% (12-18\%) uncertainty in the measured $\phi/K^-$ ($\phi/\Xi^-$) ratio. The uncertainty of the PID efficiency correction is estimated by varying the PID selection cuts and the contribution is less than 3\% to the total yield.
@@ -172,6 +162,41 @@ For the $p_T$ integrated yield, the uncertainty due to the extrapolation to the 
 
 \section{RESULTS AND DISCUSSIONS}
 \label{results}
+
+
+\begin{figure}
+\centering
+\hspace*{-10mm}
+\includegraphics[width=0.42\textwidth]{fig23-eps-converted-to.pdf}
+\caption{$K^-$ (a) and $\phi$ meson (b) invariant yields as a function of $m_T-m_0$ for various rapidity regions in 40--60\% centrality Au+Au collisions at ${\sqrt{s_{\rm NN}} = \rm{3\,GeV}}$.}
+\label{fig:phimTSpectra23}
+\end{figure}
+
+
+Figure~\ref{fig:phimTSpectra21} and ~\ref{fig:phimTSpectra23} show the acceptance $\times$ efficiency corrected $K^-$, $\phi$ and $\Xi^-$ invariant yields as a function of $m_T-m_0$ ($m_T = \sqrt{m_{0}^{2}+p_{T}^2}$) for various rapidity ranges in 0--10\%, 10--40\% and 40--60\% Centrality Au+Au collisions at ${\sqrt{s_{\rm NN}} = \rm{3\,GeV}}$. 
+Dashed and solid lines depict fits to the spectra with the $m_T$-exponential function in order to extrapolate to the unmeasured $p_T$ ranges. Please see the Supplement Material for the $p_T$ spectra in other rapidity and centrality bins.
+The $p_T$ integrated rapidity distributions $dN/dy$ are displayed in Fig.~\ref{fig:phiYSpectra} for Au+Au collisions at ${\sqrt{s_{\rm NN}} = \rm{3\,GeV}}$ for three different centralities. 
+Solid curves depict Gaussian function fits to the data points with the centroid parameter fixed to zero. They are used to extrapolate to the unmeasured rapidity region for calculating total multiplicities.
+
+
+% \begin{figure}
+% \centering
+% \hspace*{-4mm}
+% \includegraphics[width=0.43\textwidth]{fig2_mT_spectra-eps-converted-to.pdf}
+%   \caption{$K^-$ (a), $\phi$ meson (b) and $\Xi^-$ (c) invariant yields as a function of $m_T-m_0$ for various rapidity regions in 0--10\% central Au+Au collisions at ${\sqrt{s_{\rm NN}} = \rm{3\,GeV}}$. Statistical and systematic uncertainties are added quadratically here for plotting. Solid and dashed black lines depict $m_T$ exponential function fits to the measured data points with scaling factors in each rapidity windows.}
+% \label{fig:phimTSpectra} 
+% \end{figure}
+
+
+\begin{figure}
+\centering
+\hspace*{-4mm}
+\includegraphics[width=0.52\textwidth]{fig3_dndy-eps-converted-to.pdf}
+  \caption{Rapidity density distributions of $K^-$ (squares), $\phi$ meson (circles) and $\Xi^-$ (diamonds) $p_T$-integrated yields $dN/dy$ in 0--10\% (a), 10--40\% (b) and 40--60\% central (c) Au+Au collisions at ${\sqrt{s_{\rm NN}} = \rm{3\,GeV}}$.
+  Solid lines depict Gaussian function fits to the data points.}
+\label{fig:phiYSpectra} 
+\end{figure}
+
 
 
 \begin{table*}
@@ -187,24 +212,10 @@ For the $p_T$ integrated yield, the uncertainty due to the extrapolation to the 
 }
 \end{table*}
 
-\begin{figure}
-\centering
-\hspace*{-4mm}
-\includegraphics[width=0.5\textwidth]{fig3_dndy-eps-converted-to.pdf}
-  \caption{Rapidity density distributions of $K^-$ (squares), $\phi$ meson (circles) and $\Xi^-$ (diamonds) $p_T$-integrated yields $dN/dy$ in 0--10\% (a), 10--40\% (b) and 40--60\% central (c) Au+Au collisions at ${\sqrt{s_{\rm NN}} = \rm{3\,GeV}}$.
-  Solid lines depict Gaussian function fits to the data points.}
-\label{fig:phiYSpectra} 
-\end{figure}
+
+The $\phi/K^-$ and $\phi/\Xi^-$ ratios are presented in Fig.~\ref{fig:phi2Kratio} as a function of collision energy $\sqrt{s_{\rm NN}}$, including the midrapidity data in central Au+Au or Pb+Pb data from the AGS, SPS and RHIC BES at higher energies and $4\pi$\,acceptance data from SIS at lower energies. The black solid circles show our measurements in the 0-10\% centrality bin in Au+Au collisions at ${\sqrt{s_{\rm NN}} = \rm{3\,GeV}}$. The measured $\phi$, $K^-$ and $\Xi^-$ yields in 4$\pi$ and the $\phi/K^-$, $\phi/\Xi^-$ ratios in different centrality bins are listed in Tab.~\ref{table:yieldTratio}. The $\phi/K^-$ and $\phi/\Xi^-$ ratios measured at 3\,GeV are slightly higher than, or comparable to, the values at high energies for $\sqrt{s_{\rm NN}} \geqslant$ 5\,GeV~\cite{NA49_phi,NA49_piK,NA49_piK2,NA49_Xi,E917_phi,ALICE_phi_2p7TeV,STAR_phi_64a200GeV,Xi_ArKCl_HADES,star_bes_strangeness} despite the collision energy being very close to the $\phi$ threshold and below the $\Xi^-$ threshold in NN collisions. 
 
 
-
-Figure~\ref{fig:phimTSpectra21} and ~\ref{fig:phimTSpectra23} show the acceptance $\times$ efficiency corrected $K^-$, $\phi$ and $\Xi^-$ invariant yields as a function of $m_T-m_0$ ($m_T = \sqrt{m_{0}^{2}+p_{T}^2}$) for various rapidity ranges in 0--10\%, 10--40\% and 40--60\% Centrality Au+Au collisions at ${\sqrt{s_{\rm NN}} = \rm{3\,GeV}}$. 
-Dashed and solid lines depict fits to the spectra with the $m_T$-exponential function in order to extrapolate to the unmeasured $p_T$ ranges. Please see the Supplement Material for the $p_T$ spectra in other rapidity and centrality bins.
-The $p_T$ integrated rapidity distributions $dN/dy$ are displayed in Fig.~\ref{fig:phiYSpectra} for Au+Au collisions at ${\sqrt{s_{\rm NN}} = \rm{3\,GeV}}$ for three different centralities. 
-Solid curves depict Gaussian function fits to the data points with the centroid parameter fixed to zero. They are used to extrapolate to the unmeasured rapidity region for calculating total multiplicities.
-
-
-The $\phi/K^-$ and $\phi/\Xi^-$ ratios are presented in Fig.~\ref{fig:phi2Kratio} as a function of collision energy $\sqrt{s_{\rm NN}}$, including the midrapidity data in central Au+Au or Pb+Pb data from the AGS, SPS and RHIC BES at higher energies and $4\pi$\,acceptance data from SIS at lower energies. The black solid circles show our measurements in the 0-10\% centrality bin in Au+Au collisions at ${\sqrt{s_{\rm NN}} = \rm{3\,GeV}}$. The measured $\phi$, $K^-$ and $\Xi^-$ yields in 4$\pi$ and the $\phi/K^-$, $\phi/\Xi^-$ ratios in different centrality bins are listed in Tab.~\ref{table:yieldTratio}. The $\phi/K^-$ and $\phi/\Xi^-$ ratios measured at 3\,GeV are slightly higher than, or comparable to, the values at high energies for $\sqrt{s_{\rm NN}}\geqslant$ 5\,GeV~\cite{NA49_phi,NA49_piK,NA49_piK2,NA49_Xi,E917_phi,ALICE_phi_2p7TeV,STAR_phi_64a200GeV,Xi_ArKCl_HADES,star_bes_strangeness} despite the collision energy being very close to the $\phi$ threshold and below the $\Xi^-$ threshold in NN collisions. 
 
 Various curves in Fig.~\ref{fig:phi2Kratio} represent the predictions of $\phi/K^-$ and $\phi/\Xi^-$ ratios from several model calculations in central A+A collisions. Statistical model calculations, based on the Grand Canonical Ensemble and Canonical Ensemble for strangeness with several different choices of strangeness correlation length ($r_c$), were calculated using the $\textup{THERMUS}$ package~\cite{THERMUS_WHEATON200984} with energy dependent freeze-out parameters ($T_{\rm ch}$, $\mu_B$) taken from~\cite{Andronic_2018Naure}. 
 We noted that the $\phi/K^-$ and $\phi/\Xi^-$ ratios from GCE depend on $\mu_{S}$. The same relation, $\mu_{S}$ = $\mu_{B}/4$ from the STAR BES-I data~\cite{star_bes_strangeness}, was used in this GCE calculation. 
@@ -212,8 +223,6 @@ With unprecedented precision, our data exclude the GCE calculation,
 which indicates the event-by-event strangeness conservation 
 is crucial~\cite{BraunMunzinger:2003zd} in such collisions. In the canonical approach, the correlation length, $r_c$, defines a region of the particle production phase space inside which the production of the strangeness is canonically conserved. Both the $\phi/K^-$ and $\phi/\Xi^-$ data from our measurement favor the CE thermodynamics for strangeness with a small strangeness correlation length ($r_c \sim 2.7$\,fm for $\phi/K^-$ and $r_c \sim 4.2$\,fm for $\phi/\Xi^-$). It is worthwhile to point out that the CE calculations with the same $r_c$ parameter cannot describe our $\phi/K^-$ and $\phi/\Xi^-$ data simultaneously (as also observed in lighter systems and at lower collision energy ~\cite{HADES_phi_ArKCl}). 
 A global thermal model fit with all the particle yields at 3\,GeV will help to precisely determine these thermal parameters in the future.
-
-Previous measurements from smaller collision systems (Ar+KCl and Al+Al collisions) show comparable or higher $\phi/K^-$ and/or $\phi/\Xi^-$ ratios at energies below 3\,GeV~\cite{FOPI_phi_AlAl,FOPI_phi_NiNi,HADES_phi_ArKCl,Xi_ArKCl_HADES}. The measurement in $p$+$p$ collisions at $\textup{2.7 GeV}$ shows a much larger $\phi/K^-$ ratio ($1.04\pm0.23$)~\cite{ANKE_phi}, while the measured ratio at $\textup{17.3 GeV}$ ($0.11\pm0.01$) is comparable to that in central Au+Au/Pb+Pb collisions at similar energies. The $\phi/\Xi^-$ ratio in $p$+$p$ collisions at 17.3\,GeV, $5.09\pm0.36$, is also significantly larger than that in central Au+Au/Pb+Pb collisions ~\cite{NA61SHINE_pp_piKp,NA61SHINE_pp_phi,NA61SHINE_pp_Xi}. In our measurement at 3 GeV, there is no obvious difference in the $\phi/K^-$ ratio between the \textup{0--10\%} and \textup{10--40\%} central bins, while the result in the most peripheral 40--60\% central bin shows a hint of a larger value, as shown in Tab.~\ref{table:yieldTratio}. Similarly, the $\phi/\Xi^-$ ratio in mid-central collisions seems to be larger than that in central collisions. Overall, these observations are qualitatively consistent with the expectation that a smaller canonical volume in the smaller system leads to a higher observed $\phi/K^-$ and/or $\phi/\Xi^-$ ratio.
 
 
 \begin{figure}
@@ -225,9 +234,14 @@ Previous measurements from smaller collision systems (Ar+KCl and Al+Al collision
 \end{figure}
 
 
+Previous measurements from smaller collision systems (Ar+KCl and Al+Al collisions) show comparable or higher $\phi/K^-$ and/or $\phi/\Xi^-$ ratios at energies below 3\,GeV~\cite{FOPI_phi_AlAl,FOPI_phi_NiNi,HADES_phi_ArKCl,Xi_ArKCl_HADES}. The measurement in $p$+$p$ collisions at $\textup{2.7 GeV}$ shows a much larger $\phi/K^-$ ratio ($1.04\pm0.23$)~\cite{ANKE_phi}, while the measured ratio at $\textup{17.3 GeV}$ ($0.11\pm0.01$) is comparable to that in central Au+Au/Pb+Pb collisions at similar energies. The $\phi/\Xi^-$ ratio in $p$+$p$ collisions at 17.3\,GeV, $5.09\pm0.36$, is also significantly larger than that in central Au+Au/Pb+Pb collisions ~\cite{NA61SHINE_pp_piKp,NA61SHINE_pp_phi,NA61SHINE_pp_Xi}. In our measurement at 3 GeV, there is no obvious difference in the $\phi/K^-$ ratio between the \textup{0--10\%} and \textup{10--40\%} central bins, while the result in the most peripheral 40--60\% central bin shows a hint of a larger value, as shown in Tab.~\ref{table:yieldTratio}. Similarly, the $\phi/\Xi^-$ ratio in mid-central collisions seems to be larger than that in central collisions. Overall, these observations are qualitatively consistent with the expectation that a smaller canonical volume in the smaller system leads to a higher observed $\phi/K^-$ and/or $\phi/\Xi^-$ ratio.
+
+
 Hadronic transport models are widely used in the high baryon density region to study the properties of the produced dense matter~\cite{urQMD,UrQMD_2,Steinheimer_2015_UrQMD,Elfner_SMASH,Hartnack:2011cn,Song:2020clw}. In the modified version of the Ultra-relativistic Quantum Molecular Dynamics (UrQMD) model~\cite{Steinheimer_2015_UrQMD}, new decay channels from high mass baryon resonances to $\phi$ and $\Xi^-$ are deployed. The relevant decay branching fraction was determined by fitting the experimental data from $p$+$p$ collisions~\cite{ANKE_phi}. From the comparison shown in Fig.~\ref{fig:phi2Kratio}, the modified $\textup{UrQMD}^{2}$ calculation for central ($\rm{b}<5\,\rm{fm}$) Au+Au collisions agrees with the data points at low ${\sqrt{s_{\rm NN}}}$, including our new measurement for $\phi/K^-$.
 However calculations from the public $\textup{UrQMD}^{1}$ model underestimate our measurements for both $\phi/K^-$ and $\phi/\Xi^-$.   
 The SMASH (Simulating Many Accelerated Strongly-interacting Hadrons) model attempts to incorporate the newest available experimental data from both elementary hadronic cross sections and dilepton invariant mass spectra to constrain the resonance branching ratios~\cite{Elfner_SMASH}. The $\phi/K^-$ ratio is reasonably reproduced using SMASH in the smaller system and ${\sqrt{s_{\rm NN}}}$ below $\textup{3 GeV}$, despite the overestimation of each individual ($\phi$, $K^-$) transverse mass spectrum measured, e.g. in Au+Au $\textup{0-40\%}$ system by HADES~\cite{Elfner_SMASH,HADES_phi_AuAu}. The predicted $\phi/K^-$ ratio from the same model is about is 2.5$\sigma$ higher than central Au+Au 0--10\% collisions at $\textup{3 GeV}$. This indicates that some important in-medium mechanism for strangeness production and propagation may be missing for the large system in SMASH.
+
+
 
 \section{SUMMARY}
 \label{summary}
